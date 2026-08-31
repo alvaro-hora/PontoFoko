@@ -68,7 +68,7 @@ O app compara o **planejado** com o **registrado**:
 Em **Pontualidade** você vê:
 
 - Resumo do **dia**, da **semana** e do **mês**
-- Detalhe **por atividade** (Emprego Dev, Estudo, etc.)
+- Detalhe **por atividade** (Desenvolver Sistemas, Estudos, Empreendimento, etc.)
 - A **agenda de hoje** bloco a bloco, com o que já foi batido ou faltou
 
 ### Histórico e fotos
@@ -102,14 +102,12 @@ Registros feitos assim aparecem como **manual** ou **ajustado**, diferente dos b
 Nos **Ajustes** também dá para:
 
 - Editar blocos de qualquer dia da semana (antes de salvar, fica em rascunho)
-- Criar e renomear **atividades** (o nome novo reflete no histórico se renomear)
+- Criar e renomear **atividades** — por exemplo: Desenvolver Sistemas, Estudos, Empreendimento e Descanso (o nome novo reflete no histórico se renomear)
 - Mudar **data de início** ou **pausar/retomar**
 
 ---
 
 ## Telas
-
-As capturas abaixo usam **dados apenas demonstrativos** — horários, atividades, métricas e fotos foram montados para ilustrar como o app funciona na prática. **Não representam a rotina real de nenhum usuário.**
 
 | Tela | O que tem |
 |------|-----------|
@@ -117,6 +115,8 @@ As capturas abaixo usam **dados apenas demonstrativos** — horários, atividade
 | **Pontualidade** | Métricas dia/semana/mês, por atividade, agenda de hoje |
 | **Dias** | Calendário mensal, detalhe do dia, fotos, ajuste de ponto |
 | **Ajustes** | Rotina semanal, atividades, data de início, pausa |
+
+> **Aviso:** as capturas abaixo usam **dados fictícios** — horários, atividades, métricas e fotos foram montados só para demonstrar o app. **Não representam a rotina real de ninguém.**
 
 ### Login
 
