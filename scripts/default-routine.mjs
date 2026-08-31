@@ -1,0 +1,105 @@
+/** Rotina demo para seed (espelha createDefaultWeeklyRoutine em schedule.ts). */
+export const defaultRoutine = [
+  {
+    dayOfWeek: 1,
+    label: "Segunda",
+    blocks: [
+      { id: "d1-wd-emprego-1", start: "09:30", end: "10:30", activity: "Emprego Dev", isBreak: false },
+      { id: "d1-wd-break-1", start: "10:30", end: "10:45", activity: "Descanso", isBreak: true },
+      { id: "d1-wd-emprego-2", start: "10:45", end: "11:45", activity: "Emprego Dev", isBreak: false },
+      { id: "d1-wd-break-2", start: "11:45", end: "12:00", activity: "Descanso", isBreak: true },
+      { id: "d1-wd-emprego-3", start: "12:00", end: "13:00", activity: "Emprego Dev", isBreak: false },
+      { id: "d1-wd-estudo-1", start: "15:00", end: "16:00", activity: "Estudo GCM", isBreak: false },
+      { id: "d1-wd-break-3", start: "16:00", end: "16:15", activity: "Descanso", isBreak: true },
+      { id: "d1-wd-estudo-2", start: "16:15", end: "17:15", activity: "Estudo GCM", isBreak: false },
+    ],
+  },
+  {
+    dayOfWeek: 2,
+    label: "Terça",
+    blocks: [
+      { id: "d2-wd-emprego-1", start: "09:30", end: "10:30", activity: "Emprego Dev", isBreak: false },
+      { id: "d2-wd-break-1", start: "10:30", end: "10:45", activity: "Descanso", isBreak: true },
+      { id: "d2-wd-emprego-2", start: "10:45", end: "11:45", activity: "Emprego Dev", isBreak: false },
+      { id: "d2-wd-break-2", start: "11:45", end: "12:00", activity: "Descanso", isBreak: true },
+      { id: "d2-wd-emprego-3", start: "12:00", end: "13:00", activity: "Emprego Dev", isBreak: false },
+      { id: "d2-wd-estudo-1", start: "15:00", end: "16:00", activity: "Estudo GCM", isBreak: false },
+      { id: "d2-wd-break-3", start: "16:00", end: "16:15", activity: "Descanso", isBreak: true },
+      { id: "d2-wd-estudo-2", start: "16:15", end: "17:15", activity: "Estudo GCM", isBreak: false },
+    ],
+  },
+  {
+    dayOfWeek: 3,
+    label: "Quarta",
+    blocks: [
+      { id: "d3-wd-emprego-1", start: "09:30", end: "10:30", activity: "Emprego Dev", isBreak: false },
+      { id: "d3-wd-break-1", start: "10:30", end: "10:45", activity: "Descanso", isBreak: true },
+      { id: "d3-wd-emprego-2", start: "10:45", end: "11:45", activity: "Emprego Dev", isBreak: false },
+      { id: "d3-wd-break-2", start: "11:45", end: "12:00", activity: "Descanso", isBreak: true },
+      { id: "d3-wd-emprego-3", start: "12:00", end: "13:00", activity: "Emprego Dev", isBreak: false },
+      { id: "d3-wd-estudo-1", start: "15:00", end: "16:00", activity: "Estudo GCM", isBreak: false },
+      { id: "d3-wd-break-3", start: "16:00", end: "16:15", activity: "Descanso", isBreak: true },
+      { id: "d3-wd-estudo-2", start: "16:15", end: "17:15", activity: "Estudo GCM", isBreak: false },
+    ],
+  },
+  {
+    dayOfWeek: 4,
+    label: "Quinta",
+    blocks: [
+      { id: "d4-wd-emprego-1", start: "09:30", end: "10:30", activity: "Emprego Dev", isBreak: false },
+      { id: "d4-wd-break-1", start: "10:30", end: "10:45", activity: "Descanso", isBreak: true },
+      { id: "d4-wd-emprego-2", start: "10:45", end: "11:45", activity: "Emprego Dev", isBreak: false },
+      { id: "d4-wd-break-2", start: "11:45", end: "12:00", activity: "Descanso", isBreak: true },
+      { id: "d4-wd-emprego-3", start: "12:00", end: "13:00", activity: "Emprego Dev", isBreak: false },
+      { id: "d4-wd-estudo-1", start: "15:00", end: "16:00", activity: "Estudo GCM", isBreak: false },
+      { id: "d4-wd-break-3", start: "16:00", end: "16:15", activity: "Descanso", isBreak: true },
+      { id: "d4-wd-estudo-2", start: "16:15", end: "17:15", activity: "Estudo GCM", isBreak: false },
+    ],
+  },
+  {
+    dayOfWeek: 5,
+    label: "Sexta",
+    blocks: [
+      { id: "d5-wd-emprego-1", start: "09:30", end: "10:30", activity: "Emprego Dev", isBreak: false },
+      { id: "d5-wd-break-1", start: "10:30", end: "10:45", activity: "Descanso", isBreak: true },
+      { id: "d5-wd-emprego-2", start: "10:45", end: "11:45", activity: "Emprego Dev", isBreak: false },
+      { id: "d5-wd-break-2", start: "11:45", end: "12:00", activity: "Descanso", isBreak: true },
+      { id: "d5-wd-emprego-3", start: "12:00", end: "13:00", activity: "Emprego Dev", isBreak: false },
+      { id: "d5-wd-estudo-1", start: "15:00", end: "16:00", activity: "Estudo GCM", isBreak: false },
+      { id: "d5-wd-break-3", start: "16:00", end: "16:15", activity: "Descanso", isBreak: true },
+      { id: "d5-wd-estudo-2", start: "16:15", end: "17:15", activity: "Estudo GCM", isBreak: false },
+    ],
+  },
+  {
+    dayOfWeek: 6,
+    label: "Sábado",
+    blocks: [
+      { id: "d6-sat-emp-1", start: "09:15", end: "10:15", activity: "Empreendimento", isBreak: false },
+      { id: "d6-sat-emprego-1", start: "15:30", end: "16:20", activity: "Emprego Dev", isBreak: false },
+      { id: "d6-sat-break-1", start: "16:20", end: "16:25", activity: "Descanso", isBreak: true },
+      { id: "d6-sat-emprego-2", start: "16:25", end: "17:15", activity: "Emprego Dev", isBreak: false },
+      { id: "d6-sat-break-2", start: "17:15", end: "17:20", activity: "Descanso", isBreak: true },
+      { id: "d6-sat-emprego-3", start: "17:20", end: "18:00", activity: "Emprego Dev", isBreak: false },
+    ],
+  },
+  {
+    dayOfWeek: 0,
+    label: "Domingo",
+    blocks: [
+      { id: "d0-sun-emp-1", start: "09:00", end: "10:00", activity: "Empreendimento", isBreak: false },
+      { id: "d0-sun-break-1", start: "10:00", end: "10:30", activity: "Descanso", isBreak: true },
+      { id: "d0-sun-emprego-1", start: "10:30", end: "11:30", activity: "Emprego Dev", isBreak: false },
+      { id: "d0-sun-break-2", start: "11:30", end: "11:45", activity: "Descanso", isBreak: true },
+      { id: "d0-sun-emprego-2", start: "11:45", end: "12:45", activity: "Emprego Dev", isBreak: false },
+      { id: "d0-sun-break-3", start: "12:45", end: "13:00", activity: "Descanso", isBreak: true },
+      { id: "d0-sun-emprego-3", start: "13:00", end: "14:00", activity: "Emprego Dev", isBreak: false },
+    ],
+  },
+];
+
+export const defaultActivities = [
+  "Emprego Dev",
+  "Estudo GCM",
+  "Empreendimento",
+  "Descanso",
+];

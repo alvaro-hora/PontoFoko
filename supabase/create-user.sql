@@ -1,0 +1,25 @@
+-- Criar usuário NOVO (sempre perfil zerado)
+-- Troque os valores e rode no SQL Editor do Supabase
+--
+-- insert into public.app_accounts
+--   (username, password_hash, display_name, start_date, paused, weekly_routine, activities)
+-- values (
+--   'novo_usuario',
+--   extensions.crypt('senha_aqui', extensions.gen_salt('bf')),
+--   'Nome Exibido',
+--   null,   -- data de início: a pessoa define nos Ajustes
+--   true,  -- pausado até configurar
+--   '[
+--     {"dayOfWeek":1,"label":"Segunda","blocks":[]},
+--     {"dayOfWeek":2,"label":"Terça","blocks":[]},
+--     {"dayOfWeek":3,"label":"Quarta","blocks":[]},
+--     {"dayOfWeek":4,"label":"Quinta","blocks":[]},
+--     {"dayOfWeek":5,"label":"Sexta","blocks":[]},
+--     {"dayOfWeek":6,"label":"Sábado","blocks":[]},
+--     {"dayOfWeek":0,"label":"Domingo","blocks":[]}
+--   ]'::jsonb,
+--   '["Descanso"]'::jsonb
+-- );
+
+-- Ou pelo terminal do projeto:
+-- npm run db:user -- novo_usuario senha_aqui "Nome Exibido"
