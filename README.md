@@ -9,7 +9,7 @@ App para organizar e cumprir uma rotina semanal pessoal no formato de relógio d
 - Montar a **agenda da semana** (blocos de trabalho e descanso por dia)
 - **Bater ponto** com horário exato e foto da webcam na entrada e na saída
 - Ver **em tempo real** em qual bloco está, se atrasou ou está em descanso
-- Acompanhar **horas**: meta, feito, faltou e tempo a mais — por dia, semana e mês
+- Acompanhar **horas**: meta, feito, faltou e tempo a mais, por dia, semana e mês
 - Consultar o **histórico** de qualquer dia, com fotos dos registros
 - **Corrigir** um ponto esquecido ou errado (só naquele dia), com observação
 - **Pausar** a rotina, mudar horários e renomear atividades quando precisar
@@ -24,8 +24,8 @@ Não existe cadastro público: cada pessoa usa uma **conta criada manualmente** 
 
 Cada dia da semana tem blocos ordenados: início, fim, nome da atividade e se é descanso ou trabalho.
 
-- **Trabalho** — entra na meta de horas e exige ponto
-- **Descanso** — aparece na agenda e avisa quando acabar; não entra na meta
+- **Trabalho**: entra na meta de horas e exige ponto
+- **Descanso**: aparece na agenda e avisa quando acabar; não entra na meta
 
 Tudo isso se configura em **Ajustes**. A rotina só vale depois de **salvar** e de chegar a **data de início** que você escolher. Até lá, dá para montar a agenda sem contar faltas.
 
@@ -77,15 +77,15 @@ Em **Dias** você navega mês a mês e abre qualquer dia passado (desde a sua da
 
 No detalhe do dia aparece:
 
-- **Resumo** — feito, faltou, a mais, meta e resultado do dia
-- **Por atividade** — mesmas métricas separadas por nome
-- **Lista de pontos** — cada bloco da rotina daquele dia, com status:
+- **Resumo**: feito, faltou, a mais, meta e resultado do dia
+- **Por atividade**: mesmas métricas separadas por nome
+- **Lista de pontos**: cada bloco da rotina daquele dia, com status:
   - não batido
   - batido (pelo app, manual ou ajustado depois)
   - em andamento (se ainda estiver aberto)
 - **Miniaturas das fotos** de começo e fim; toque para ver em tamanho maior
 - **Horários** previstos vs. reais (começo e fim)
-- **Observação** — texto que você deixou ao corrigir um ponto
+- **Observação**: texto que você deixou ao corrigir um ponto
 
 Na lista do mês, cada dia mostra quantos registros teve e um resumo rápido de feito / faltou / meta.
 
@@ -102,7 +102,7 @@ Registros feitos assim aparecem como **manual** ou **ajustado**, diferente dos b
 Nos **Ajustes** também dá para:
 
 - Editar blocos de qualquer dia da semana (antes de salvar, fica em rascunho)
-- Criar e renomear **atividades** — por exemplo: Desenvolver Sistemas, Estudos, Empreendimento e Descanso (o nome novo reflete no histórico se renomear)
+- Criar e renomear **atividades**, por exemplo: Desenvolver Sistemas, Estudos, Empreendimento e Descanso (o nome novo reflete no histórico se renomear)
 - Mudar **data de início** ou **pausar/retomar**
 
 ---
@@ -116,7 +116,7 @@ Nos **Ajustes** também dá para:
 | **Dias** | Calendário mensal, detalhe do dia, fotos, ajuste de ponto |
 | **Ajustes** | Rotina semanal, atividades, data de início, pausa |
 
-> **Aviso:** as capturas abaixo usam **dados fictícios** — horários, atividades, métricas e fotos foram montados só para demonstrar o app. **Não representam a rotina real de ninguém.**
+> **Aviso:** as capturas abaixo usam **dados fictícios**. Horários, atividades, métricas e fotos foram montados só para demonstrar o app. **Não representam a rotina real de ninguém.**
 
 ### Login
 
@@ -124,7 +124,7 @@ Nos **Ajustes** também dá para:
 
 ### Ponto
 
-![Tela Ponto — relógio, bloco atual e registro com webcam](docs/screenshots/02-ponto.png)
+![Tela Ponto: relógio, bloco atual e registro com webcam](docs/screenshots/02-ponto.png)
 
 ### Pontualidade
 
@@ -134,7 +134,7 @@ Nos **Ajustes** também dá para:
 
 ![Calendário mensal com resumo dos dias](docs/screenshots/04-dias-calendario.png)
 
-![Detalhe do dia — pontos, horários e fotos](docs/screenshots/05-dias-detalhe.png)
+![Detalhe do dia: pontos, horários e fotos](docs/screenshots/05-dias-detalhe.png)
 
 ### Ajustes
 
@@ -154,7 +154,7 @@ Nos **Ajustes** também dá para:
 
 ## Como criar usuários
 
-O login é fixo no banco — **não há tela de cadastro** no app. Quem administra o projeto cria as contas pelo terminal, com o banco já configurado e o arquivo `.env.local` apontando para o Supabase (`DATABASE_URL` ou `DIRECT_URL`).
+O login é fixo no banco. **Não há tela de cadastro** no app. Quem administra o projeto cria as contas pelo terminal, com o banco já configurado e o arquivo `.env.local` apontando para o Supabase (`DATABASE_URL` ou `DIRECT_URL`).
 
 ### Criar uma conta nova
 
